@@ -19,6 +19,18 @@
         <joint name="arm_joint_03" value="0"/>
         <joint name="arm_joint_04" value="0"/>
     </group_state>
+    <group_state name="1_25_maybe" group="arm">
+        <joint name="arm_joint_01" value="-1.544"/>
+        <joint name="arm_joint_02" value="-0.7061"/>
+        <joint name="arm_joint_03" value="-0.4077"/>
+        <joint name="arm_joint_04" value="1.1436"/>
+    </group_state>
+    <group_state name="0_75_maybe" group="arm">
+        <joint name="arm_joint_01" value="-1.6481"/>
+        <joint name="arm_joint_02" value="-1.621"/>
+        <joint name="arm_joint_03" value="0.2486"/>
+        <joint name="arm_joint_04" value="1.3028"/>
+    </group_state>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
     <disable_collisions link1="arm_base_link" link2="arm_link_01" reason="Adjacent"/>
     <disable_collisions link1="arm_base_link" link2="arm_link_02" reason="Never"/>
